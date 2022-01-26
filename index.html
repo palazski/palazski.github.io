@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Abdullah Palaz</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/abdullahpalaz"
+           target="_blank"
+           rel="noopener noreferrer" class="link"
+          >@palazski on various platforms.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Abdullah Palaz</span></h1>
+        <h2 class="about__role">an undergrad AI student.</h2>
+        <p class="about__desc">
+          I am a junior AI Engineering student at Hacettepe University in Turkey
+          where I am one of the first 11 students at Hacettepe University and one of the first 15 students in Turkey.
+          <br> <br>
+          I have an interest in problem-solving, especially those who need a tricky and smart solution.
+          This is where AI comes in handy since it is a great tool to solve hard formulation problems.
+          I also love playing games, going on a trip, partying, and watching TV series.
+          One day, I want to start my own company to solve various real-life problems using AI.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/12Mq0_-ZLRlGj2mT_Ol8gAd5VGfoXs9TE/view?usp=sharing"
+             target="_blank"
+             rel="noopener noreferrer">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/abdullahpalaz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/abdullahpalaz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Le recommandeur</h3>
+            <p class="project__description">
+              A content-based music recommendation system built for Introduction
+              to Machine Learning class.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Jupyter Notebook</li>
+              <li class="project__stack-item">Numpy</li>
+              <li class="project__stack-item">Sci-kit Learn</li>
+              <li class="project__stack-item">Pandas</li>
+              <li class="project__stack-item">Matplotlib</li>
+            </ul>
+
+            <a
+              href="https://github.com/abdullahpalaz/le-recommandeur"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Age Estimator</h3>
+            <p class="project__description">
+              Age estimation from face images built using kNN for Introduction to
+              Machine Learning class.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Jupyter Notebook</li>
+              <li class="project__stack-item">Numpy</li>
+              <li class="project__stack-item">Sci-kit Learn</li>
+              <li class="project__stack-item">Pandas</li>
+              <li class="project__stack-item">Matplotlib</li>
+            </ul>
+
+            <a
+              href="https://github.com/abdullahpalaz/age-estimator"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Spam Detector</h3>
+            <p class="project__description">
+              Spam detector for news headlines built using Naïve Bayes Classifier for
+              Introduction to Machine Learning class.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Jupyter Notebook</li>
+              <li class="project__stack-item">Numpy</li>
+              <li class="project__stack-item">Sci-kit Learn</li>
+              <li class="project__stack-item">Pandas</li>
+              <li class="project__stack-item">Matplotlib</li>
+            </ul>
+
+            <a
+              href="https://github.com/abdullahpalaz/spam-detector"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>School Assignments</h3>
+            <p class="project__description">
+              An archive of assignments and quizzes I made.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Object-oriented programming</li>
+              <li class="project__stack-item">Jupyter Notebook</li>
+              <li class="project__stack-item">Numpy</li>
+              <li class="project__stack-item">Sci-kit Learn</li>
+              <li class="project__stack-item">Pandas</li>
+              <li class="project__stack-item">Matplotlib</li>
+            </ul>
+
+            <a
+              href="https://github.com/abdullahpalaz/le-recommandeur"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <div id="skills" style="display:flex">
+        <section class="section skills" id="section-skills">
+          <h2 class="section__title">Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">Python</li>
+            <li class="skills__list-item btn btn--plain">Java</li>
+            <li class="skills__list-item btn btn--plain">C++</li>
+            <li class="skills__list-item btn btn--plain">Jupyter Notebook</li>
+            <li class="skills__list-item btn btn--plain">Machine Learning</li>
+            <li class="skills__list-item btn btn--plain">Data Science</li>
+            <li class="skills__list-item btn btn--plain">Object-Oriented Programming</li>
+          </ul>
+        </section>
+
+        <section class="section skills" id="section-libraries-frameworks">
+          <h2 class="section__title">Libraries</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">NumPy</li>
+            <li class="skills__list-item btn btn--plain">Pandas</li>
+            <li class="skills__list-item btn btn--plain">Scikit-Learn</li>
+            <li class="skills__list-item btn btn--plain">Matplotlib</li>
+          </ul>
+        </section>
+
+        <section class="section skills" id="section-soft-skills">
+          <h2 class="section__title">Soft Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__list-item btn btn--plain">Fast learning</li>
+            <li class="skills__list-item btn btn--plain">Communication</li>
+            <li class="skills__list-item btn btn--plain">Eagerness to learn</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:palazski@gmail.com">
+          <span class="btn btn--outline">mail me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Template from
+        <a
+        href="https://github.com/rajshekhar26"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link footer__link"
+      >
+        Raj Shekhar
+      </a></p>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
