@@ -21,28 +21,119 @@
   <body class="light" id="top">
     <header class="header center">
       <h3>
-        <a href="https://github.com/abdullahpalaz"
-           target="_blank"
+        <a href="index.html"
            rel="noopener noreferrer" class="link"
           >palazski.</a
         >
       </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="blog.html">Blog</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <main>
-      <!-- Alert -->
-      <div>
-        <h1
-        style="text-align: center; padding-bottom: 1em; padding-top: 1em;">
-        I use Statcounter to see from where and how many people have entered my website.</h1>
-        <p style="text-align: center; padding-bottom: 0.8em; padding-top: 0.3em;">
-            To proceed, click the button below.</p>
-        <a href="main.html"
-        rel="noopener noreferrer"
-        style="display: block; text-align: center;">
-        <span class="btn btn--outline" style="text-transform: none;">I am now aware that I will be shown as a number on Statcounter.</span> 
-        </a>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Abdullah Palaz</span></h1>
+        <h2 class="about__role">a senior undergrad AI student.</h2>
+        <p class="about__desc">
+          I am an energetic learner and cronic curios. For example, I am thinking about how to schedule a metro line while waiting it or
+          how would I integrate AI solutions to our grocery store while just walking.
+          <br> <br>
+          Also, I love gaming, travelling, Artificial Intelligence, reading about history and watching Kurzgesagt videos on YouTube!
+          <br> <br>
+          I want to be in an environment which
+          people in it are hard-working and intelligent because when you be around them, you can discuss ideas, learn things from and teach things to them and work even harder
+          because they motivate you.
+          <br><br>
+          Don't forget to check my blog above!
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/12Mq0_-ZLRlGj2mT_Ol8gAd5VGfoXs9TE/view?usp=sharing"
+             target="_blank"
+             rel="noopener noreferrer">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/abdullahpalaz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/abdullahpalaz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://steamcommunity.com/id/palazski/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="steam"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-steam"></i>
+          </a>
+
+        </div>
       </div>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:palazski@gmail.com">
+          <span class="btn btn--outline">mail me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Template from
+        <a
+        href="https://github.com/rajshekhar26"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link footer__link"
+      >
+        Raj Shekhar
+      </a></p>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>

@@ -136,7 +136,7 @@ button {
 
 .link--icon {
   color: var(--clr-fg);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .btn {
@@ -281,6 +281,27 @@ main {
   margin-right: 1em;
 }
 
+.blogs__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+
+.blog {
+  padding: 2em;
+  margin: 0 auto;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  width: 100%;
+}
+
+.blog__description {
+  text-align: left;
+  
+}
+
 .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
@@ -298,7 +319,7 @@ main {
 }
 
 .project:hover {
-  transform: translateY(-7px);
+  color: var(--clr-primary);
 }
 
 .project__description {
