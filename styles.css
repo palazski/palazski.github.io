@@ -23,6 +23,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a:active {
+a:link, a:visited, a:hover, a:active, a:focus {
     color: #0000EE;
 }
