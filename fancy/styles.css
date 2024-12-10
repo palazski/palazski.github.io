@@ -76,7 +76,6 @@ h1 {
 }
 
 h2 {
-  animation: rotate 8s infinite linear;
   color: #fff;
   text-shadow: 0 0 10px #ff0000;
 }
