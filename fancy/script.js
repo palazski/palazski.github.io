@@ -1,3 +1,19 @@
+// Audio setup
+const audio = new Audio('abdullah.mp3');
+audio.volume = 0.5; // Set volume to 50%
+
+// Play sound when page loads
+window.addEventListener('load', () => {
+    // Some browsers require user interaction before playing audio
+    try {
+        audio.play().catch(error => {
+            console.log('Auto-play prevented:', error);
+        });
+    } catch (error) {
+        console.log('Error playing audio:', error);
+    }
+});
+
 // Create floating elements less frequently
 function createFloatingElement() {
     const element = document.createElement('div');
