@@ -139,13 +139,46 @@ iframe {
   margin: 20px 0;
 }
 
-/* Header section with subtle animation */
+/* Header */
 header {
-  padding: 20px;
+  padding: 30px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
   animation: explode 6s infinite;
   margin-bottom: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 20px 0;
+  font-size: 3.5em;
+  text-shadow: 
+    2px 2px 0 var(--explosion-color-1),
+    4px 4px 0 var(--explosion-color-2),
+    6px 6px 0 var(--explosion-color-3);
+  animation: 
+    explode 4s infinite,
+    rainbow 6s infinite;
+}
+
+header aside {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+header a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  transform: scale(1.1) rotate(2deg);
+  background: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
 }
 
 /* Emphasized text */
