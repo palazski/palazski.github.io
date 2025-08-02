@@ -12,6 +12,8 @@ h1,h2,h3 {
 
 header aside {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     margin: 10px 0;
 }
@@ -19,25 +21,27 @@ header aside {
 header aside:first-of-type a {
     flex: 1;
     display: block;
-    padding: 12px 20px;
+    padding: 8px 20px;
     text-align: center;
     background-color: #4c4cde;
     color: white !important;
     text-decoration: none;
     border-radius: 0.7rem;
     transition: background-color 0.2s;
+    text-wrap: nowrap;
 }
 
 header aside:last-of-type a {
     flex: 1;
     display: block;
-    padding: 6px 20px;
+    padding: 4px 20px;
     text-align: center;
     border: 1px solid #4c4cde;
     color: white !important;
     text-decoration: none;
     border-radius: 0.7rem;
     transition: background-color 0.2s;
+    text-wrap: nowrap;
 }
 
 header aside a:hover {
